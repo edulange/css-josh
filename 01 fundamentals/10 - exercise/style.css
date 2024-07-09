@@ -1,23 +1,34 @@
 body {
-  padding: 16px 32px;
+	padding: 16px 32px;
 }
 
 h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+	font-size: 2rem;
+	margin-bottom: 1rem;
 }
 
 p {
-  margin-bottom: 24px;
+	margin-bottom: 24px;
+}
+
+article a {
+	color: deeppink;
+	text-decoration: none;
+}
+aside a {
+	color: black;
+}
+aside a:hover {
+	text-decoration: underline;
 }
 
 /* We'll learn about this later on! */
 aside p:last-of-type {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 aside {
-  background: peachpuff;
-  border: 2px solid;
-  padding: 16px;
+	background: peachpuff;
+	border: 2px solid;
+	padding: 16px;
 }
