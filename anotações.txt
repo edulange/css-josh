@@ -1,0 +1,7 @@
+margin: podem ser usadas também para centralizar um filho em um container
+
+se colocar margin-left e margin-right auto vai utiliazr o espaço disponível e deixar o div no meio
+mas não funciona com a margin-top e bottom, só <->
+e só vai funcionar tb se o filho tiver um width especificado
+
+Flow Layout
