@@ -1,10 +1,6 @@
-strong {
-    color: white;
-    background-color: red;
-    width: 100px;
-    text-align: center;
-  }
-  
-  strong:hover {
-    transform: scale(1.2);
+h2 {
+    max-width: max-content;
+    background-color: peachpuff;
+    margin-bottom: 16px;
+    padding: 8px;
   }

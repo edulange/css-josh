@@ -9,3 +9,11 @@ inline: eu posso alterar margin mas eu não posso alterar width ou height
 
 inline tem pseudoclasses que não funcionam, ai da pra transformar em inline-block :)
 precisa prestar a atenção nisso.
+
+porcentagem sempre vai utilizar o % em relação ao parent
+block elements tem um default width de AUTO e não 100%
+ou seja, ele vai ocupar o espaço DISPONIVEL, mas não mais.
+
+width e height: min-content; ou max-content;
+eles irão ocupar o espaço do FILHO (Children) minimo e máximo
+propriedade interessante.
