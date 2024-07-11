@@ -5,3 +5,7 @@ mas não funciona com a margin-top e bottom, só <->
 e só vai funcionar tb se o filho tiver um width especificado
 
 Flow Layout
+inline: eu posso alterar margin mas eu não posso alterar width ou height
+
+inline tem pseudoclasses que não funcionam, ai da pra transformar em inline-block :)
+precisa prestar a atenção nisso.
