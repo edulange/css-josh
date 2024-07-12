@@ -1,17 +1,15 @@
-html, body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
+header {
+  margin-bottom: -20px;
 }
 
-
-p {
-  border: 2px solid black;
+header h1 {
+  margin-bottom: 10px;
 }
 
-#one {
-  margin-bottom: 30px;
+section {
+  margin-top: -10px;
 }
-#two {
-margin-top: 30px;
+
+section p {
+  margin-top: 30px;
 }
