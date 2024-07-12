@@ -22,3 +22,32 @@ em block-level element o width sempre vai preencher todo o espaço disponível
 enquanto o HEIGHT ele vai preencher o mínimo de espaço possível
 é aconselhável zerar o height com 'html, body { height: 100% } e não 100vh
 o 100vh pode dar problema com os mobiles.
+
+a margin vai para o parent, exemplo:
+<div>
+<h1>teste </h1>
+</div>
+vai para o <div>
+
+como acessar no linux para ver o que está sendo consumido de memoria
+'free -h' ou então 'gnome-system-monitor'
+
+a margim SEMPRE colapsa em flow layout, se tiver flexbox ou grid
+NÃO colapsa.
+Que loucura se eu tiver 2 <p> colapsa mas se eu colocar um </br> não colapsa ???
+e se eu colocar um DIV? COLAPSA HAUHAUHAUHAH
+
+qualquer elemento no meio de dois elementos vai impedir de colapsar a margem
+e se eu tiver uma margem colapsando com valores diferentes?
+por exemplo se for:
+<p>1</p>
+<p>2</p>
+1 {margin-bottom: 10px} 2{margin-top: 10px}
+se pensar assim, a marem entre o dois irão ficar 10px, pq a margem colapsa
+agora e se for 1 {margin-bottom:30px} 2{margin-top: 15px}?
+vai ganhar sempre o maior, então vai ficar uma margem de 30
+
+Margin is meant to increase the distance between siblings. It is not meant to increase the gap between a child and its parent's bounding box; that's what padding is for.
+
+parei no rules of margin collapses
+Blocked by padding or border
