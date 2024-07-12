@@ -17,3 +17,8 @@ ou seja, ele vai ocupar o espaço DISPONIVEL, mas não mais.
 width e height: min-content; ou max-content;
 eles irão ocupar o espaço do FILHO (Children) minimo e máximo
 propriedade interessante.
+
+em block-level element o width sempre vai preencher todo o espaço disponível
+enquanto o HEIGHT ele vai preencher o mínimo de espaço possível
+é aconselhável zerar o height com 'html, body { height: 100% } e não 100vh
+o 100vh pode dar problema com os mobiles.

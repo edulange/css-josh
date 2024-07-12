@@ -1,6 +1,15 @@
-h2 {
-    max-width: max-content;
-    background-color: peachpuff;
-    margin-bottom: 16px;
-    padding: 8px;
-  }
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+footer {
+  border: solid hotpink;
+  padding: 8px;
+  margin-top: auto;
+}
