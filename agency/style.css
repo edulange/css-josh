@@ -1,0 +1,15 @@
+html {
+	height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.emphasy {
+    color: rgb(35, 146, 35);
+    font-style: normal;
+    font-weight: bold;
+}
