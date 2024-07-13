@@ -6,6 +6,11 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: lightgray;
+}
+
+h1 {
+    margin-bottom: 25px;
 }
 
 .emphasy {
@@ -13,3 +18,19 @@ html {
     font-style: normal;
     font-weight: bold;
 }
+
+section.top {
+    background-color: #fff;
+    padding: 80px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+section.bottom {
+    margin-top: 50px;
+}
+
+.top-container {
+    width: 290px;
+}
+
+
