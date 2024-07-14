@@ -1,0 +1,7 @@
+.abs {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    right: 32px;
+    border: 2px solid slateblue;
+  }

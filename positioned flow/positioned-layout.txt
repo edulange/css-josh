@@ -1,0 +1,11 @@
+o que define o positioned layout é que os items podem 'overlap' (sobrepor)
+com o flow layout o algoritimo faz com que os elementos ocupem os mesmos pixeis, com o position layout nós podemos quebrar isso
+
+quando o position é absolute é como se ele não estivesse ocupado espaço
+então, quando eu for fazer modais, tooltip, dropdown o abosolute vai ser meu amigo
+lembre-se disso.
+
+position: absolute ele é como um holograma, ele não existe de vdd.
+
+LEMBRE-se o position é indiferente se é display block ou inline
+agora se for o flow layout ai importa bastante.
