@@ -9,3 +9,15 @@ position: absolute ele é como um holograma, ele não existe de vdd.
 
 LEMBRE-se o position é indiferente se é display block ou inline
 agora se for o flow layout ai importa bastante.
+
+a oriem é do top e left
+
+aqui no positioned layout o margin ele é 'hungry'
+vai sempre tentar comer para preencher o máximo possível
+e com o margin auto no flow layout ele só centralizava se fosse <- e ->
+aqui ele funciona pra cima e pra baixo tb.
+
+o posicionamento é tri quando o parent (pai) estiver com position: relative
+pq dai digamos que eu tenha bottom: 0 no filho
+ele vai pro final da página, agora se o pai tem position: relative
+o bottom: 0 vai pro 0 do PAI
