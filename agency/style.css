@@ -6,7 +6,10 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: lightgray;
+}
+
+main {
+    background-color: lightgrey;
 }
 
 h1 {
@@ -19,24 +22,32 @@ h1 {
     font-weight: bold;
 }
 
-section.top {
+.top {
     border-bottom: 5px solid gray;
     background-color: #fff;
 }
 
 .top-container {
+    max-width: 280px;
+    margin: 50px 100px;
+}
+
+
+.bottom {
+    background-color: black;
+}
+
+.bottom-container {
+    margin: 50px 100px;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+h2 {
+    background-color: gold;
+    border-bottom: 5px solid gray;
+    max-width: 320px;
     margin-bottom: 30px;
-    background-color: #fff;
-    padding-top: 50px;
-    padding-left: 100px;
-    
 }
 
-section.bottom {
-    margin-top: 50px;
-    background-color: #fff;
-}
-
-p {
-    background-color: #fff;
-}
