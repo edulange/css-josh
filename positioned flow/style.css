@@ -1,18 +1,20 @@
+p {
+    max-width: 300px;
+}
+
 .tooltip {
     /* Hide the tooltip by default */
     display: none;
     background: white;
-    border: 1px solid black;
+    border: 1px solid;
 
     /* aqui foi eu */
     position: absolute;
     min-width: 150px;
-    left: 0px;
-    top: 20px;
     color: black;
     font-weight: 400;
     font-size: 0.875rem;
-    padding: 10px;
+    padding: 8px;
   }
   
   /*
@@ -23,7 +25,8 @@
     display: block;
 }
 
-a {
+.tooltip-trigger {
+    display: inline-block;
     position: relative;
 }
 
@@ -32,3 +35,4 @@ a {
 • Have a black text and border color
 • Use 400 font weight
 • Use 0.875rem font size */
+
