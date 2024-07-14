@@ -1,53 +1,16 @@
-html {
-	height: 100%;
-}
-
 * {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  html,
+  body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+  }
 
-main {
-    background-color: lightgrey;
-}
+  /* font é usado rem */
+  /* spacin multiples de 8px */
 
-h1 {
-    margin-bottom: 25px;
-}
-
-.emphasy {
-    color: rgb(35, 146, 35);
-    font-style: normal;
-    font-weight: bold;
-}
-
-.top {
-    border-bottom: 5px solid gray;
-    background-color: #fff;
-}
-
-.top-container {
-    max-width: 280px;
-    margin: 50px 100px;
-}
-
-
-.bottom {
-    background-color: black;
-}
-
-.bottom-container {
-    margin: 50px 100px;
-    max-width: 500px;
-    background-color: #fff;
-    padding: 20px;
-}
-
-h2 {
-    background-color: gold;
-    border-bottom: 5px solid gray;
-    max-width: 320px;
-    margin-bottom: 30px;
-}
-
+  
+  
