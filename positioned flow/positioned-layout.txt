@@ -21,3 +21,6 @@ o posicionamento é tri quando o parent (pai) estiver com position: relative
 pq dai digamos que eu tenha bottom: 0 no filho
 ele vai pro final da página, agora se o pai tem position: relative
 o bottom: 0 vai pro 0 do PAI
+
+se eu quero que o filho sempre altere alguma propriedade que o pai
+é só colocar a propriedade inherit
