@@ -24,3 +24,7 @@ o bottom: 0 vai pro 0 do PAI
 
 se eu quero que o filho sempre altere alguma propriedade que o pai
 é só colocar a propriedade inherit
+
+o position absolute é essencial para tooltips/modal/etc. pois ele não influenciará no posicionamento
+
+LEMBRANDO: O PAI precisa ser RELATIVO e o filho ABSOLUTO, ai o filho vai se mexer dentro do pai.

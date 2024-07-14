@@ -1,27 +1,34 @@
-.box {
-    height: 150px;
-    margin: 64px;
-    border: 4px solid palevioletred;
-    position: relative; 
-}
+.tooltip {
+    /* Hide the tooltip by default */
+    display: none;
+    background: white;
+    border: 1px solid black;
 
-.circle {
+    /* aqui foi eu */
     position: absolute;
-    border: inherit;
-    border-radius: 50%;
-    background-color: white;
+    min-width: 150px;
+    left: 0px;
+    top: 20px;
+    color: black;
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding: 10px;
   }
-
-.big.circle {
-    width: 65px;
-    height: 65px;
-    left: -20px;
-    top: -30px;
+  
+  /*
+    Show the tooltip when hovering
+    over the wrapper:
+  */
+  .tooltip-trigger:hover .tooltip {
+    display: block;
 }
 
-.medium.circle {
-    width: 35px;
-    height: 35px;
-    left: -20px;
-    top: 35px;
+a {
+    position: relative;
 }
+
+/* Tooltip should:
+• Be at least 150px wide
+• Have a black text and border color
+• Use 400 font weight
+• Use 0.875rem font size */
