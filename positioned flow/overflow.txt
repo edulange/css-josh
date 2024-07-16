@@ -3,3 +3,5 @@ o exemplo que eu fiz, escrever dentro de um block element um texto e colocar um 
 pq como eu coloquei um máximo height, o elemento vai ter o maximo de hieght e como o texto é maior, ele vai passar o bloco
 
  white-space: nowrap; para conseguir fazer nao ter a quebra do bloco inline na horizontal
+ absolutely-positioned elements will be anchored to their containing block.
+ Similarly, this also means that fixed-position elements are immune from being hidden with overflow: hidden:
