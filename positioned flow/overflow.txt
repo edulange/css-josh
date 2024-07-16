@@ -4,4 +4,10 @@ pq como eu coloquei um máximo height, o elemento vai ter o maximo de hieght e c
 
  white-space: nowrap; para conseguir fazer nao ter a quebra do bloco inline na horizontal
  absolutely-positioned elements will be anchored to their containing block.
- Similarly, this also means that fixed-position elements are immune from being hidden with overflow: hidden:
+ Similarly, this also means that fixed-position elements are immune from being hidden with overflow: hidden
+
+ o position: sticky; vai fazer o elemento ficar 'preso' somente dentro do parent.
+ sticky element só ficarão dentro do elemento pai 
+
+ Sticky elements are considered "in-flow", while fixed elements aren’t.
+
