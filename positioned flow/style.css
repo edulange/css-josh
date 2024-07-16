@@ -1,38 +1,24 @@
-p {
-    max-width: 300px;
-}
-
-.tooltip {
-    /* Hide the tooltip by default */
-    display: none;
-    background: white;
-    border: 1px solid;
-
-    /* aqui foi eu */
-    position: absolute;
-    min-width: 150px;
-    color: black;
-    font-weight: 400;
-    font-size: 0.875rem;
-    padding: 8px;
-  }
-  
+.container {
+  margin: 50px;
+  border: solid hotpink;
   /*
-    Show the tooltip when hovering
-    over the wrapper:
+    This property breaks
+    fixed positioning on
+    ALL descendants:
   */
-  .tooltip-trigger:hover .tooltip {
-    display: block;
+  transform: translate(1px, 1px);
 }
 
-.tooltip-trigger {
-    display: inline-block;
-    position: relative;
+.fixed {
+  position: fixed;
+  top: 0;
 }
 
-/* Tooltip should:
-• Be at least 150px wide
-• Have a black text and border color
-• Use 400 font weight
-• Use 0.875rem font size */
-
+/*
+  Artificially boost the size of the
+  "body", so that the frame can be
+  scrolled.
+*/
+html, body {
+  height: 125%;
+}
