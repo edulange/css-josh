@@ -1,24 +1,6 @@
-.container {
-  margin: 50px;
-  border: solid hotpink;
-  /*
-    This property breaks
-    fixed positioning on
-    ALL descendants:
-  */
-  transform: translate(1px, 1px);
-}
-
-.fixed {
-  position: fixed;
-  top: 0;
-}
-
-/*
-  Artificially boost the size of the
-  "body", so that the frame can be
-  scrolled.
-*/
-html, body {
-  height: 125%;
+.wrapper {
+  position: relative;
+  height: 150px;
+  border: 3px solid;
+  border-radius: 8px;
 }

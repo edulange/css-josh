@@ -1,0 +1,3 @@
+normalmente block elements tem um height variavel, eles crescem o quanto necessário para preencher tudo
+o exemplo que eu fiz, escrever dentro de um block element um texto e colocar um max-height, vai ocaionar overflow
+pq como eu coloquei um máximo height, o elemento vai ter o maximo de hieght e como o texto é maior, ele vai passar o bloco

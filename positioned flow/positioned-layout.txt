@@ -22,7 +22,7 @@ pq dai digamos que eu tenha bottom: 0 no filho
 ele vai pro final da página, agora se o pai tem position: relative
 o bottom: 0 vai pro 0 do PAI
 
-se eu quero que o filho sempre altere alguma propriedade que o pai
+se eu quero que o filho sempre herde alguma propriedade que o pai
 é só colocar a propriedade inherit
 
 o position absolute é essencial para tooltips/modal/etc. pois ele não influenciará no posicionamento
