@@ -1,38 +1,12 @@
-header {
-  height: 66px;
-  /* Add your styles here! */
+header, main {
+  padding: 16px;
+}
+
+.sticky {
   position: sticky;
-  top: -16px;
-  padding-top: 16px;
-}
-
-/* baseline decorative style: */
-
-body {
-  height: 150vh;
-  padding: 0;
-  margin: 0;
-}
-
-header {
-  background: slateblue;
-  color: white;
-  opacity: 0.96;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-li {
-  display: inline-block;
-  padding: 0;
-  margin: 0 16px;
-  line-height: 50px;
-}
-
-main {
-  padding: 32px;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-color: deeppink;
+  border-radius: 4px;
 }
