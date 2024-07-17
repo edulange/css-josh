@@ -13,3 +13,9 @@ Sticky elements are considered "in-flow", while fixed elements aren’t.
 para o sticky funcionar eu preciso dar um edge para ele se basear
 
 o sticky element vai ficar sempre 'sticky' do elemento PAI
+
+Ainda sobre o sticky um problema comum com o sticky é que:
+quando tu faz sticky mas o pai tem overflow: auto; o elemento que tem o overflow *PRECISA*
+ser scrollable, caso contrário o sticky não acontecera; só acontecerá se for scrollable
+
+ A sticky element will only follow the viewport as long as it remains inside its parent container.
