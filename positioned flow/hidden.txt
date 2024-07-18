@@ -1,0 +1,13 @@
+Display: none; 
+Faz com que o elemento é removido da árvore DOM
+
+visibility: hidden;
+visibility hidden é como se o elemento nao podesse ser visto, mas ainda está lá!
+sempre que o parent for hidden, os filhos também serão 'hidden'
+
+opacity: 0
+os items com opacity 0 não são escondidos do flow, ainda podem:
+1. ser clicados 2. ser selecionados 3. ser focados
+Opacity is helpful when:
+    An item needs to be semi-visible
+An item's visibility needs to be animated, fading in and out

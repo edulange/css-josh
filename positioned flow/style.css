@@ -1,12 +1,21 @@
-main {
-  overflow: auto;
-  max-height: 200px;
-  border: 2px solid;
+.flourish {
+  opacity: 0.5;
+  position: absolute;
+  top: 20px;
+  left: -5px;
+  width: 150px;
+  height: 150px;
+  background: slateblue;
+  border-radius: 50%;
 }
-header {
-  position: sticky;
-  top: -1px; /* -1px instead of 0px */
-  text-align: center;
-  background: white;
-  padding: 8px;
+.flourish.two {
+  background: deeppink;
+  left: 75px;
+}
+
+section {
+  position: relative;
+  border: 2px solid;
+  padding: 32px;
+  overflow: hidden;
 }
