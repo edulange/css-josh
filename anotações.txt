@@ -45,7 +45,7 @@ por exemplo se for:
 1 {margin-bottom: 10px} 2{margin-top: 10px}
 se pensar assim, a marem entre o dois irão ficar 10px, pq a margem colapsa
 agora e se for 1 {margin-bottom:30px} 2{margin-top: 15px}?
-vai ganhar sempre o maior, então vai ficar uma margem de 30
+vai ganhar sempre o maior, então vai ficar uma margem de 30w
 
 Margin is meant to increase the distance between siblings. It is not meant to increase the gap between a child and its parent's bounding box; that's what padding is for.
 
