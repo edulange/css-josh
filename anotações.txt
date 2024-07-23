@@ -51,3 +51,7 @@ Margin is meant to increase the distance between siblings. It is not meant to in
 
 parei no rules of margin collapses
 Blocked by padding or border
+
+
+BEM = Block Element Modifier.
+é um name convention
