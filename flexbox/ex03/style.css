@@ -1,34 +1,35 @@
 * {
+	margin: 0;
+	padding: 0;
 	text-decoration: none;
 	list-style: none;
 	color: black;
 	font-family: 'Courier New', Courier, monospace;
 }
 
-html, body {
+html,
+body {
 	height: 100%;
 }
 
-ol {
-	width: 400px;
+nav {
+	width: 220px;
+}
+
+nav,
+main {
+	padding: 16px;
+	border: 2px solid;
+}
+
+section {
 	display: flex;
-	flex-direction: column;
-	background-color: hsla(0, 0%, 99%, 0.884);
 }
 
-.message {
-	padding: 10px;
-	margin: 15px;
-	border-radius: 5px;
+section main {
+	flex-grow: 1;
 }
 
-.sent {
-	background-color: blue;
-	color: #fff;
-	align-self: flex-end;
-}
-
-.received {
-	background-color: lightgrey;
-	align-self: flex-start;
+nav {
+	flex-shrink: 100000;
 }
