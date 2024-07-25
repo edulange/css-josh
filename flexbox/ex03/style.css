@@ -1,35 +1,11 @@
-* {
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	list-style: none;
-	color: black;
-	font-family: 'Courier New', Courier, monospace;
-}
+.wrapper {
+    display: flex;
+  }
 
-html,
-body {
-	height: 100%;
-}
+  nav {
+    /* TODO */
+  }
 
-nav {
-	width: 220px;
-}
-
-nav,
-main {
-	padding: 16px;
-	border: 2px solid;
-}
-
-section {
-	display: flex;
-}
-
-section main {
-	flex-grow: 1;
-}
-
-nav {
-	flex-shrink: 100000;
-}
+  main {
+    /* TODO */
+  }

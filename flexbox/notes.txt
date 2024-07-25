@@ -1,0 +1,12 @@
+Cara, quando eu tiver uma div com 3 containers dentro
+e cada container tem 1 img só que de diferente tamanhos, como eu vou fazer 
+pra eles ficarem distribuidos igualmente?
+
+display: flex
+flex: 1
+e o elemento pai precisa ter o width: 100% para igualar o tamanho das imagens
+
+pq funciona? pq o flex:1 = flex-grow: 1 e flex-basis = 0
+
+basicamente o flex-basis transforma o width em zero, mas é o width hipotético
+se nao tiver o width 100% das imagens, não funciona.a
