@@ -1,11 +1,8 @@
-.wrapper {
-    display: flex;
-  }
+header {
+  display: flex;
+  gap: 5px;
+}
 
-  nav {
-    /* TODO */
-  }
-
-  main {
-    /* TODO */
-  }
+header > :first-child {
+  margin-left: auto;
+}
