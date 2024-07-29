@@ -10,3 +10,47 @@ pq funciona? pq o flex:1 = flex-grow: 1 e flex-basis = 0
 
 basicamente o flex-basis transforma o width em zero, mas é o width hipotético
 se nao tiver o width 100% das imagens, não funciona.a
+---------------------------------------------------------------------------------------------
+E quando tivermo um conflito de layout modes?
+o poitioned layout SEMPRE vai ganhar. (com exceção do position: relative); o relative instrui para para movimentar conforme 'normal' e o normal é 'position: inherited'
+
+
+
+QUAI SÃO O LAYOUTS MODES NO CSS??
+No CSS, existem vários modos de layout que controlam como os elementos são organizados na página. Aqui estão os principais:
+
+1. **Normal Flow (Fluxo Normal):**
+   - **Block Layout:** Elementos de bloco (block-level elements) ocupam toda a largura disponível e empilham uns sobre os outros, começando uma nova linha.
+   - **Inline Layout:** Elementos em linha (inline elements) ocupam apenas a largura necessária e ficam lado a lado, dentro de um bloco.
+
+2. **Flexbox Layout:**
+   - **Display: flex;**: Flexbox é uma abordagem para criar layouts flexíveis. Ele permite que você organize elementos dentro de um contêiner flexível, distribuindo o espaço entre eles e alinhando-os de várias maneiras.
+   - **Display: inline-flex;**: Similar ao flex, mas o contêiner flexível é tratado como um elemento inline.
+
+3. **Grid Layout:**
+   - **Display: grid;**: O Grid Layout é uma abordagem bidimensional que permite criar layouts complexos com linhas e colunas.
+   - **Display: inline-grid;**: Similar ao grid, mas o contêiner de grade é tratado como um elemento inline.
+
+4. **Table Layout:**
+   - **Display: table;**: Simula o comportamento de uma tabela HTML, com linhas e células.
+   - **Display: table-row;** e **display: table-cell;**: Permitem criar linhas e células de tabela sem a necessidade de usar elementos `<table>`, `<tr>`, ou `<td>`.
+
+5. **Positioning Layout:**
+   - **Position: static;**: Padrão, os elementos seguem o fluxo normal.
+   - **Position: relative;**: Permite ajustar a posição de um elemento em relação à sua posição original.
+   - **Position: absolute;**: Remove o elemento do fluxo normal e posiciona-o em relação ao seu contêiner mais próximo com posição relativa.
+   - **Position: fixed;**: Remove o elemento do fluxo normal e posiciona-o em relação à janela de visualização.
+   - **Position: sticky;**: O elemento se comporta como `relative` até que seu contêiner atinja um limite de rolagem, após o qual ele se comporta como `fixed`.
+
+6. **Float Layout:**
+   - **Float: left;** e **Float: right;**: Permitem que os elementos flutuem para a esquerda ou direita, e o conteúdo subsequente se ajusta ao redor deles.
+
+7. **Multi-Column Layout:**
+   - **Column-count;** e **Column-width;**: Permitem dividir o conteúdo de um contêiner em várias colunas, similar a um layout de jornal.
+
+8. **Flexbox e Grid juntos:**
+   - Combinação de flexbox e grid para criar layouts mais complexos e responsivos.
+
+Cada um desses modos de layout tem suas próprias características e casos de uso, permitindo flexibilidade e controle ao criar layouts de páginas web.
+
+
