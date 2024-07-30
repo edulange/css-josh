@@ -1,27 +1,38 @@
-section {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrapper {
   display: flex;
-  gap: 32px;
-  border: 3px solid hotpink;
-  overflow: auto;
+  flex-direction: column;
+  height: 100vh;
 }
 
-
-.col {
+.middle {
   flex: 1;
-  padding: 16px;
+  display: flex;
 }
 
-.col:first-of-type {
-  position: sticky;
-  top: 0;
+header {
+  border: 5px solid goldenrod;
+}
+nav {
+  border: 5px solid greenyellow;
 }
 
-.col:last-of-type {
-  height: 0px;
+nav, aside {
+  flex: 1;
 }
 
-
-/* Two equal width columns
-The container should be the height of the first column.
-The second column should scroll vertically,
- since it won't fit in the shorter container. */
+main {
+  border: 5px solid blue;
+  flex: 5;
+}
+aside {
+  border: 5px solid purple;
+}
+footer {
+  border: 5px solid red;
+}
