@@ -1,38 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-
 .wrapper {
   display: flex;
-  flex-direction: column;
-  height: 100vh;
+  /* align-items: flex-start; TB RESOLVERIA */
 }
 
-.middle {
-  flex: 1;
-  display: flex;
-}
-
-header {
-  border: 5px solid goldenrod;
-}
 nav {
-  border: 5px solid greenyellow;
-}
-
-nav, aside {
-  flex: 1;
+  position: sticky;
+  bottom: 0;
+  /* height: fit-content; RESOLVERIA*/
+  border: 5px solid black;
+  align-self: flex-start;
+  /* tb resolve. */
 }
 
 main {
-  border: 5px solid blue;
-  flex: 5;
+  flex: 1;
+  position: relative;
 }
-aside {
-  border: 5px solid purple;
-}
-footer {
-  border: 5px solid red;
+img {
+  width: 300px;
+  height: 300px;
 }

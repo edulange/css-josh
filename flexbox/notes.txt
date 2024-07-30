@@ -9,7 +9,7 @@ e o elemento pai precisa ter o width: 100% para igualar o tamanho das imagens
 pq funciona? pq o flex:1 = flex-grow: 1 e flex-basis = 0
 
 basicamente o flex-basis transforma o width em zero, mas é o width hipotético
-se nao tiver o width 100% das imagens, não funciona.a
+se nao tiver o width 100% das imagens, não funciona.
 ---------------------------------------------------------------------------------------------
 E quando tivermo um conflito de layout modes?
 o poitioned layout SEMPRE vai ganhar. (com exceção do position: relative); o relative instrui para para movimentar conforme 'normal' e o normal é 'position: inherited'
