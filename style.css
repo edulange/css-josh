@@ -1,22 +1,12 @@
 .wrapper {
-  display: flex;
-  /* align-items: flex-start; TB RESOLVERIA */
-}
-
-nav {
-  position: sticky;
-  bottom: 0;
-  /* height: fit-content; RESOLVERIA*/
+  width: 50vw;
   border: 5px solid black;
-  align-self: flex-start;
-  /* tb resolve. */
-}
-
-main {
-  flex: 1;
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 img {
+  display: block;
   width: 300px;
-  height: 300px;
+  margin-top: 16px;
+  align-self: center;
 }
