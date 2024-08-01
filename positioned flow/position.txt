@@ -1,0 +1,43 @@
+position: static é o default
+
+***** Relative **** se eu apenas declarar não vai ter impacto nenhum
+agora e eu declarar 'position: relative' e 'top:100px' vai ter um impacto.
+com o position relative também coloca em campo o z-index.
+nas palavras do 'kevin' ele 'open the world for z-index'
+com o relative, se eu fizer top: 0, ele vai ser em relação ao PAI 
+o relative respeita o flow.
+
+
+
+***** ABOLUTE **** com o position absolute, ele é tirado do flow
+e o resto do content meio que finge que ele não existe.
+o absolute ele ignora o flow, então se eu der top: 0; ele vai pro topo do containing block
+
+assim que o parente ou ancestor tem position <> de STATIC eles se tornam o containing block.
+super interessante. então eu posso colocar position diferente de static e ele vai virar o containing block.
+
+segundo o pai kevin, o position absolute é meio que 'last resort'
+
+position absolute faz ele não ser block level element, ou seja, ele vai shrink se possível
+de outra forma, digamos qeu eu estou com um div, que é um block level
+eu vou la e digo que essa div é position absolut, ele vai deixar de ser block level
+z-index tb funciona.
+
+****** FIXED ****** ele vai fazer a mesma coisa que o absolut, vai shrink 
+e consumir o minimo de espaço possível, podemos resolver isso de duas formas
+logo abaixo escrever width: 100% ou então left:0 e right:0. Ambos funcionam
+
+Como no position absolut ele sai fora do flow, os outros contents ignoram ele.
+eles se fixam em relação ao viewport
+
+***** STICKY **** diferente do fixed, ele respeita o flow, então é bom
+o sticky ele vai respeitar o viewport
+só que a gente pode chegar em um detalhe, se o pai der display:flex
+o padrão é que o elemento tenha stretch, logo ele não está ocupando apenas
+o espaho minimo, e sim o espaço máximo, então teria que dar um jeito de 
+diminuir esse espao no eixo Y para funcionar
+para resolver isso basta no elemento que eu quero position sticky
+colocar um align-self: start;
+
+um cuidado é que os itens com sticky eles nunca irão sair do containing block
+vulgo, PAI.
