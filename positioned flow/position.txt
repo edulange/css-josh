@@ -18,7 +18,7 @@ super interessante. então eu posso colocar position diferente de static e ele v
 
 segundo o pai kevin, o position absolute é meio que 'last resort'
 
-position absolute faz ele não ser block level element, ou seja, ele vai shrink se possível
+position absolute faz ele não ser block level element, ou seja, ele vai shrink se possível  
 de outra forma, digamos qeu eu estou com um div, que é um block level
 eu vou la e digo que essa div é position absolut, ele vai deixar de ser block level
 z-index tb funciona.

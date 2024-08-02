@@ -1,12 +1,31 @@
-.wrapper {
-  width: 50vw;
-  border: 5px solid black;
-  display: flex;
-  flex-direction: column;
+* { 
+  margin: 0;
+  padding: 0;
 }
-img {
-  display: block;
-  width: 300px;
-  margin-top: 16px;
-  align-self: center;
+
+body {
+  height: 100vh;
+  background-color: #1818175b;
+}
+
+.main {
+  height: 50%;
+  border: 5px solid green;
+  width: 75%;
+  position: relative;
+}
+
+.second {
+  height: 250px;
+  background-color: deeppink;
+  width: 250px;
+  margin-top: 500px;
+}
+
+.third {
+  height: 150px;
+  width: 50px;
+  background-color: aqua;
+  position: absolute;
+  right: 0;
 }
