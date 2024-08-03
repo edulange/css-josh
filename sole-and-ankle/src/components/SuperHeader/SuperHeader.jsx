@@ -9,7 +9,7 @@ const Section = styled.section`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 16px;
+	padding: 8px 24px 8px 24px;
 `
 
 const SearchDiv = styled.div`
@@ -33,11 +33,11 @@ const SearchDiv = styled.div`
 const Div = styled.div`
 	display: flex;
 	align-items: center;
-	gap: 16px;
+	gap: 24px;
 	color: ${props => props.theme['gray-300']};
 `
 
-const Superheader = () => {
+const SuperHeader = () => {
 	return (
 		<Section>
 			<p>Free shipping on domestic orders over $75!</p>
@@ -53,4 +53,4 @@ const Superheader = () => {
 	)
 }
 
-export default Superheader
+export default SuperHeader
