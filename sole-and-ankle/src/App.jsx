@@ -3,6 +3,7 @@ import { GlobalStyle } from './GlobalStyle'
 import { ThemeProvider } from 'styled-components'
 import SuperHeader from './components/SuperHeader/SuperHeader'
 import Header from './components/Header/Header'
+import Main from './components/Main/Main'
 
 const theme = {
 	primary: '#C5295D',
@@ -21,6 +22,7 @@ const App = () => (
 			<GlobalStyle />
 			<SuperHeader />
 			<Header />
+			<Main />
 		</>
 	</ThemeProvider>
 )
