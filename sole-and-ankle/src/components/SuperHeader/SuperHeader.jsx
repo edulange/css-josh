@@ -1,56 +1,52 @@
-import styled from 'styled-components'
-import { Search, ShoppingBag } from 'react-feather'
+import React from 'react';
+import styled from 'styled-components';
 
-const Section = styled.section`
-	background-color: ${(props) => props.theme['gray-900']};
-	font-weight: 500;
-	font-size: 14px;
-	color: ${(props) => props.theme.white};
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 8px 24px 8px 24px;
-`
+import { COLORS } from '../../constants';
 
-const SearchDiv = styled.div`
-	display: flex;
-	align-items: center;
-	gap: 8px;
-	border-bottom: 1px solid ${(props) => props.theme['gray-300']};
+import SearchInput from './SearchInput/SearchInput';
+import UnstyledButton from '../UnstyledButton/UnstyledButton';
+import Icon from '../Icon/Icon';
 
-	.icon {
-		width: 16px;
-		height: 16px;
-	}
+const SuperHeaderMeuJeito = () => {
+  return (
+    <Wrapper>
+      <MarketingMessage>
+        Free shipping on domestic orders over $75!
+      </MarketingMessage>
+      <SearchInput />
+      <HelpLink href="/help">Help</HelpLink>
+      <UnstyledButton>
+        <Icon id="shopping-bag" strokeWidth={1} />
+      </UnstyledButton>
+    </Wrapper>
+  );
+};
 
-	input {
-		font-size: 16px;
-		background-color: transparent;
-		border: none;
-	}
-`
+const Wrapper = styled.div`
+  display: flex;
+  align-items: center; 
+  gap: 24px;
+  font-size: 0.875rem;
+  color: ${COLORS.gray[300]};
+  background-color: ${COLORS.gray[900]};
+  height: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+`;
 
-const Div = styled.div`
-	display: flex;
-	align-items: center;
-	gap: 24px;
-	color: ${props => props.theme['gray-300']};
-`
+const MarketingMessage = styled.span`
+  color: ${COLORS.white};
+  margin-right: auto;
+`;
 
-const SuperHeader = () => {
-	return (
-		<Section>
-			<p>Free shipping on domestic orders over $75!</p>
-			<Div>
-				<SearchDiv>
-					<Search className='icon'/>
-					<input type='text' placeholder='Search...' />
-				</SearchDiv>
-				<span>Help</span>
-				<ShoppingBag />
-			</Div>
-		</Section>
-	)
-}
+const HelpLink = styled.a`
+  color: inherit;
+  text-decoration: none;
+  outline-offset: 2px;
 
-export default SuperHeader
+  &:not(:focus-visible) {
+    outline: none;
+  }
+`;
+
+export default SuperHeaderMeuJeito;

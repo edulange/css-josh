@@ -1,7 +1,7 @@
 import React from 'react'
 import { GlobalStyle } from './GlobalStyle'
 import { ThemeProvider } from 'styled-components'
-import SuperHeader from './components/SuperHeader/SuperHeader'
+import SuperHeaderMeuJeito from './components/SuperHeader/SuperHeaderMeuJeito'
 import Header from './components/Header/Header'
 import Main from './components/Main/Main'
 
@@ -20,7 +20,7 @@ const App = () => (
 	<ThemeProvider theme={theme}>
 		<>
 			<GlobalStyle />
-			<SuperHeader />
+			<SuperHeaderMeuJeito />
 			<Header />
 			<Main />
 		</>
