@@ -1,8 +1,6 @@
-import React from 'react'
 import { GlobalStyle } from './GlobalStyle'
 import { ThemeProvider } from 'styled-components'
-import SuperHeaderMeuJeito from './components/SuperHeader/SuperHeaderMeuJeito'
-import Header from './components/Header/Header'
+import HeaderJosh from './components/Header/HeaderJosh'
 import Main from './components/Main/Main'
 
 const theme = {
@@ -20,8 +18,7 @@ const App = () => (
 	<ThemeProvider theme={theme}>
 		<>
 			<GlobalStyle />
-			<SuperHeaderMeuJeito />
-			<Header />
+			<HeaderJosh />
 			<Main />
 		</>
 	</ThemeProvider>
