@@ -1,7 +1,7 @@
 import { GlobalStyle } from './GlobalStyle'
 import { ThemeProvider } from 'styled-components'
 import HeaderJosh from './components/Header/HeaderJosh'
-import MainContent from './components/Main/Main'
+import MainContent from './components/MainMeuJeito/Main'
 
 const theme = {
 	primary: '#C5295D',
