@@ -3,14 +3,18 @@ import Header from './Header'
 import SideBar from './SideBar'
 import ShoeGrid from './ShoeGrid'
 
-const Main = () => {
+const MainContent = () => {
 	return (
-		<>
+		<Main>
 			<Header />
 			<SideBar />
-			<ShoeGrid />
-		</>
+			{/* <ShoeGrid /> */}
+		</Main>
 	)
 }
 
-export default Main
+const Main = styled.main`
+	margin-top: 64px;
+`
+
+export default MainContent
