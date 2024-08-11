@@ -1,10 +1,36 @@
-body {
-	--standard-border-width: 4px;
+:root {
+	--red-hue: 0deg;
+	--intense: 100% 50%;
+  
+	--red: hsl(
+	  var(--red-hue) var(--intense)
+	);
+	--orange: hsl(
+	  calc(var(--red-hue) + 20deg)
+	  var(--intense)
+	);
+	--yellow: hsl(
+	  calc(var(--red-hue) + 40deg)
+	  var(--intense)
+	);
+	--pinkred: hsl(
+	  calc(var(--red-hue) - 20deg)
+	  var(--intense)
+	);
+	--pink: hsl(
+	  calc(var(--red-hue) - 40deg)
+	  var(--intense)
+	);
   }
   
-  strong {
-	--border-details: dashed goldenrod;
-	border:
-	  var(--standard-border-width)
-	  var(--border-details);
+  .row {
+	display: flex;
+	padding: 8px;
+	gap: 8px;
+  }
+  
+  .demo-box {
+	width: 50px;
+	height: 50px;
+	border-radius: 4px;
   }
